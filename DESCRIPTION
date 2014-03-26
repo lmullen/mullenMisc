@@ -1,7 +1,7 @@
 Package: mullenMisc
 Type: Package
 Title: Collection of functions that I use repeatedly
-Version: 0.1.0
+Version: 0.1.1
 Date: 2014-03-25
 Author: Lincoln Mullen <lincoln@lincolnmullen.com>
 Maintainer: Lincoln Mullen <lincoln@lincolnmullen.com>
@@ -10,5 +10,7 @@ License: MIT + file LICENSE
 Depends:
     R (>= 3.0.0)
 Suggests:
-    grid
+    grid,
+    gridExtra,
+    ggplot2
 Roxygen: list(wrap = FALSE)
