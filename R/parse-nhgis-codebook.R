@@ -20,7 +20,8 @@ parse_nhgis_codebook <- function(filename) {
     na.omit() %>%
     stringi::stri_split_fixed(":      ") %>%
     do.call(rbind.data.frame, .) %>%
-    dplyr::select(code = 1, meaning = 2)
+    dplyr::select(code = 1, meaning = 2) %>%
+    tbl_df()
 }
 
 # Hide variables from R CMD check

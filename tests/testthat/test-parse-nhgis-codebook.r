@@ -10,8 +10,8 @@ codebook2 <- parse_nhgis_codebook(
               package = "mullenMisc"))
 
 test_that("a data frame is returned", {
-  expect_that(class(codebook1), equals("data.frame"))
-  expect_that(class(codebook2), equals("data.frame"))
+  expect_that("data.frame" %in% class(codebook1), equals(TRUE))
+  expect_that("data.frame" %in% class(codebook2), equals(TRUE))
 })
 
 test_that("the data frame has two properly named columns", {
