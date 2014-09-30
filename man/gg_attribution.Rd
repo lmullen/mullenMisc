@@ -20,9 +20,11 @@ This function adds an attribution label to a plot. You can customize the
 text and appearance of the label.
 }
 \examples{
+\dontrun{
 require(ggplot2)
 plot <- qplot(mpg, wt, data = mtcars)
 plot_attributed <- gg_attribution(plot, "Your attribution")
 print(plot_attributed)
+}
 }
 

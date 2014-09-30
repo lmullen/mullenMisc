@@ -17,3 +17,8 @@ parse_nhgis_codebook <- function(filename) {
     do.call(rbind.data.frame, .) %>%
     dplyr::select(code = 1, meaning = 2)
 }
+
+# Hide variables from R CMD check
+if(getRversion() >= "2.15.1") {
+  utils::globalVariables(".")
+}
