@@ -18,4 +18,10 @@ which explains the meanings of these codes. This function parses those
 codebooks and returns a data frame which can be merged back into the dataset
 to get the meanings of the codes.
 }
+\examples{
+sample_codebook <- system.file("extdata",
+                               "nhgis0024_ds17_1870_county_codebook.txt",
+                               package = "mullenMisc")
+parse_nhgis_codebook(sample_codebook)
+}
 

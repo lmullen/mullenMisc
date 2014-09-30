@@ -1,0 +1,211 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0009_ds10_1850_state'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1850
+Geographic level: State
+Dataset:          1850 Census: Population, Agriculture & Other Data [US, States & Counties]
+   NHGIS code:    1850_cPAX
+   NHGIS ID:      ds10
+ 
+Tables:
+ 
+1. Churches by Denomination
+   Universe:    Churches
+   Source code: NT47
+   NHGIS code:  AET
+ 
+2. Aggregate Accommodations of Churches by Denomination
+   Universe:    Churches
+   Source code: NT48
+   NHGIS code:  AEU
+ 
+3. Value of Church Property by Denomination
+   Universe:    Churches
+   Source code: NT49
+   NHGIS code:  AEV
+ 
+4. Total Number of Churches
+   Universe:    Churches
+   Source code: NT50
+   NHGIS code:  AEX
+ 
+5. Total Aggregate Accommodations of Churches
+   Universe:    Churches
+   Source code: NT51
+   NHGIS code:  AEY
+ 
+6. Total Value of Church Property
+   Universe:    Churches
+   Source code: NT52
+   NHGIS code:  AEZ
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+    GISJOIN:     GIS Join Match Code
+    YEAR:        Data File Year
+    STATE:       State Name
+    STATEA:      State Code
+    COUNTY:      County Name
+    COUNTYA:     County Code
+    AREANAME:    Area name
+ 
+Table 1:     Churches by Denomination
+Universe:    Churches
+Source code: NT47
+NHGIS code:  AET
+    AET001:      Baptist
+    AET002:      Christian
+    AET003:      Congregational
+    AET004:      Congregational-Orthodox
+    AET005:      Dutch Reformed
+    AET006:      Episcopal
+    AET007:      Free Churches
+    AET008:      Friends or Quaker
+    AET009:      German Reformed
+    AET010:      Jewish
+    AET011:      Lutheran
+    AET012:      Mennonite
+    AET013:      Methodist
+    AET014:      Moravian
+    AET015:      Presbyterian
+    AET016:      Protestant
+    AET017:      Roman Catholic
+    AET018:      Swedenborgian
+    AET019:      Tunker
+    AET020:      Union
+    AET021:      Unitarian
+    AET022:      Universalist
+    AET023:      Minor Sects
+ 
+Table 2:     Aggregate Accommodations of Churches by Denomination
+Universe:    Churches
+Source code: NT48
+NHGIS code:  AEU
+    AEU001:      Aggregate accommodations of churches >> Baptist
+    AEU002:      Aggregate accommodations of churches >> Christian
+    AEU003:      Aggregate accommodations of churches >> Congregational
+    AEU004:      Aggregate accommodations of churches >> Congregational-Orthodox
+    AEU005:      Aggregate accommodations of churches >> Dutch Reformed
+    AEU006:      Aggregate accommodations of churches >> Episcopal
+    AEU007:      Aggregate accommodations of churches >> Free Churches
+    AEU008:      Aggregate accommodations of churches >> Friends or Quaker
+    AEU009:      Aggregate accommodations of churches >> German Reformed
+    AEU010:      Aggregate accommodations of churches >> Jewish
+    AEU011:      Aggregate accommodations of churches >> Lutheran
+    AEU012:      Aggregate accommodations of churches >> Mennonite
+    AEU013:      Aggregate accommodations of churches >> Methodist
+    AEU014:      Aggregate accommodations of churches >> Moravian
+    AEU015:      Aggregate accommodations of churches >> Presbyterian
+    AEU016:      Aggregate accommodations of churches >> Protestant
+    AEU017:      Aggregate accommodations of churches >> Roman Catholic
+    AEU018:      Aggregate accommodations of churches >> Swedenborgian
+    AEU019:      Aggregate accommodations of churches >> Tunker
+    AEU020:      Aggregate accommodations of churches >> Union
+    AEU021:      Aggregate accommodations of churches >> Unitarian
+    AEU022:      Aggregate accommodations of churches >> Universalist
+    AEU023:      Aggregate accommodations of churches >> Minor Sects
+ 
+Table 3:     Value of Church Property by Denomination
+Universe:    Churches
+Source code: NT49
+NHGIS code:  AEV
+    AEV001:      Value of church property >> Baptist
+    AEV002:      Value of church property >> Christian
+    AEV003:      Value of church property >> Congregational
+    AEV004:      Value of church property >> Congregational-Orthodox
+    AEV005:      Value of church property >> Dutch Reformed
+    AEV006:      Value of church property >> Episcopal
+    AEV007:      Value of church property >> Free Churches
+    AEV008:      Value of church property >> Friends or Quaker
+    AEV009:      Value of church property >> German Reformed
+    AEV010:      Value of church property >> Jewish
+    AEV011:      Value of church property >> Lutheran
+    AEV012:      Value of church property >> Mennonite
+    AEV013:      Value of church property >> Methodist
+    AEV014:      Value of church property >> Moravian
+    AEV015:      Value of church property >> Presbyterian
+    AEV016:      Value of church property >> Protestant
+    AEV017:      Value of church property >> Roman Catholic
+    AEV018:      Value of church property >> Swedenborgian
+    AEV019:      Value of church property >> Tunker
+    AEV020:      Value of church property >> Union
+    AEV021:      Value of church property >> Unitarian
+    AEV022:      Value of church property >> Universalist
+    AEV023:      Value of church property >> Minor Sects
+ 
+Table 4:     Total Number of Churches
+Universe:    Churches
+Source code: NT50
+NHGIS code:  AEX
+    AEX001:      Total
+ 
+Table 5:     Total Aggregate Accommodations of Churches
+Universe:    Churches
+Source code: NT51
+NHGIS code:  AEY
+    AEY001:      Aggregate accommodations of churches
+ 
+Table 6:     Total Value of Church Property
+Universe:    Churches
+Source code: NT52
+NHGIS code:  AEZ
+    AEZ001:      Value of church property
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing NHGIS data (either tabular or GIS)
+  must cite it appropriately. The citation should include the following:
+
+    Minnesota Population Center. National Historical Geographic Information
+    System: Version 2.0. Minneapolis, MN: University of Minnesota 2011.
+
+* Publications and research reports employing school attendance areas data
+  (either tabular or GIS) must cite it appropriately. The citation should
+  include the following:
+
+    The College of William and Mary and the Minnesota Population Center.
+    School Attendance Boundary Information System (SABINS): Version 1.0.
+    Minneapolis, MN: University of Minnesota 2011.
+
+* If possible, citations should also include the URL for the NHGIS site:
+
+    https://www.nhgis.org/
+
+* If possible, citations involving school attendance areas should also include
+  the URL for the SABINS site:
+
+    http://www.sabinsdata.org/
+
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+Printed matter should be sent to:
+
+    NHGIS
+    Minnesota Population Center
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
+
+Send electronic material to: nhgis@umn.edu

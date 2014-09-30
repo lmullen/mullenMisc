@@ -15,4 +15,6 @@ Imports:
     ggplot2 (>= 1.0.0),
     knitr (>= 1.6),
     stringi (>= 0.2-5)
+Suggests:
+    testthat (>= 0.9)
 Roxygen: list(wrap = FALSE)

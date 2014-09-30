@@ -9,8 +9,13 @@
 #' @param filename The path to an NHGIS codebook.
 #' @export
 #' @return A data frame with two columns \code{code} and \code{meaning}.
+#' @examples
+#' sample_codebook <- system.file("extdata",
+#'                                "nhgis0024_ds17_1870_county_codebook.txt",
+#'                                package = "mullenMisc")
+#' parse_nhgis_codebook(sample_codebook)
 parse_nhgis_codebook <- function(filename) {
-  scan(file = filename, what = "character", sep = "\n") %>%
+  scan(file = filename, what = "character", sep = "\n", quiet = TRUE) %>%
     stringi::stri_extract_first_regex("([A-Z]{2,3}\\d{3}): {6}(\\w.+)$") %>%
     na.omit() %>%
     stringi::stri_split_fixed(":      ") %>%
