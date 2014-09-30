@@ -16,7 +16,7 @@
 #' parse_nhgis_codebook(sample_codebook)
 parse_nhgis_codebook <- function(filename) {
   scan(file = filename, what = "character", sep = "\n", quiet = TRUE) %>%
-    stringi::stri_extract_first_regex("([A-Z]{2,3}\\d{3}): {6}(\\w.+)$") %>%
+    stringi::stri_extract_first_regex("([A-Z]{2,4}\\d{2,5}): {6}(\\w.+)$") %>%
     na.omit() %>%
     stringi::stri_split_fixed(":      ") %>%
     do.call(rbind.data.frame, .) %>%
