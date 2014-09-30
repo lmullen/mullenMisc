@@ -2,16 +2,17 @@ Package: mullenMisc
 Type: Package
 Title: Collection of functions that I use repeatedly
 Version: 0.1.5
-Date: 2014-03-25
 Author: Lincoln Mullen <lincoln@lincolnmullen.com>
 Maintainer: Lincoln Mullen <lincoln@lincolnmullen.com>
 Description: Functions and configurations that I use across many projects
 License: MIT + file LICENSE
 Depends:
-    R (>= 3.0.0)
-Suggests:
+    R (>= 3.0.0),
+Imports:
+    dplyr (>= 0.2),
     grid,
-    gridExtra,
+    gridExtra (>= 0.9.1),
     ggplot2 (>= 1.0.0),
-    knitr (>= 1.6)
+    knitr (>= 1.6),
+    stringi (>= 0.2-5)
 Roxygen: list(wrap = FALSE)
