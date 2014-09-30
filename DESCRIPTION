@@ -1,7 +1,7 @@
 Package: mullenMisc
 Type: Package
 Title: Collection of functions that I use repeatedly
-Version: 0.1.5
+Version: 0.1.6
 Author: Lincoln Mullen <lincoln@lincolnmullen.com>
 Maintainer: Lincoln Mullen <lincoln@lincolnmullen.com>
 Description: Functions and configurations that I use across many projects
