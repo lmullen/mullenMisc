@@ -7,4 +7,5 @@
 #' @import knitr
 #' @import dplyr
 #' @import grid
+#' @import assertthat
 NULL

@@ -1,3 +1,7 @@
+# mullenMisc 0.1.7
+
+- New function `round_year()`
+
 # mullenMisc 0.1.6
 
 - New function `parse_nhgis_codebook()`

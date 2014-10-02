@@ -1,7 +1,7 @@
 Package: mullenMisc
 Type: Package
 Title: Collection of functions that I use repeatedly
-Version: 0.1.6
+Version: 0.1.7
 Author: Lincoln Mullen <lincoln@lincolnmullen.com>
 Maintainer: Lincoln Mullen <lincoln@lincolnmullen.com>
 Description: Functions and configurations that I use across many projects
@@ -9,6 +9,7 @@ License: MIT + file LICENSE
 Depends:
     R (>= 3.0.0),
 Imports:
+    assertthat (>= 0.1),
     dplyr (>= 0.2),
     grid,
     gridExtra (>= 0.9.1),
