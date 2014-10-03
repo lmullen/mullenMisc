@@ -3,7 +3,7 @@
 \alias{round_year}
 \title{Round years to decades or centuries}
 \usage{
-round_year(year, round_to = "decade")
+round_year(year, round_to = c("decade", "century"))
 }
 \arguments{
 \item{year}{Year to test (as a number)}

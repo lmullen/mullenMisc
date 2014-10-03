@@ -11,9 +11,9 @@
 #' round_year(set_of_years) # round to decade by default
 #' round_year(set_of_years, round_to = "century")
 #' @export
-round_year <- function(year, round_to = "decade") {
+round_year <- function(year, round_to = c("decade", "century")) {
   assert_that(is.numeric(year))
-  assert_that(round_to %in% c("decade", "century"))
+  round_to <- match.arg(round_to)
   if(round_to == "decade") {
     round_val <- 10
   } else if(round_to == "century") {
