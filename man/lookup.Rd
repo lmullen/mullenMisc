@@ -18,7 +18,8 @@ lookup(x, lookup_table, key = 1, value = 2)
 A common problem is to look up some key and return a value for it. This
 function lets you provide a vector of keys to lookup and a table (usually a
 data frame) with keys and values. Optionally, it lets you specify which
-columns of the table contain the keys and the values.
+columns of the table contain the keys and the values: the default is to look
+for the keys in column 1 and the values in column 2.
 }
 \examples{
 my_table <- data.frame(letters = letters[1:5],
