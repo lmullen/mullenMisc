@@ -15,6 +15,10 @@ d3 <- c("red", "yellow", "blue", "orange", "green", "chartruese", NA)
 results3 <- lookup(d3, t, key = "colors", value = "letters")
 correct3 <- c("a", "e", "b", "d", "c", NA, NA)
 
+t4 <- c("a" = "red", "b" = "blue", "c" = "green", "d" = "orange", "e" = "yellow")
+results4 <- lookup(d1, t4)
+correct4 <- c("red", "yellow", "blue", "orange", "green", NA, NA)
+
 test_that("results are a vector of the correct type", {
   expect_is(results1, "character")
   expect_is(results2, "integer")
@@ -25,4 +29,9 @@ test_that("lookup works with data frame in both directions", {
   expect_equal(results1, correct1)
   expect_equal(results2, correct2)
   expect_equal(results3, correct3)
+})
+
+test_that("lookup works with named vectors", {
+  expect_is(results4, "character")
+  expect_equal(results4, correct4)
 })
