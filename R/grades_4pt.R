@@ -7,4 +7,6 @@
 #' @name grades_4pt
 #' @docType data
 #' @seealso \code{\link{lookup}}
+#' @usage data(grades_4pt)
+#' @keywords datasets
 NULL

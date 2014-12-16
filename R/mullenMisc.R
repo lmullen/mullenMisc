@@ -9,3 +9,8 @@
 #' @import grid
 #' @import assertthat
 NULL
+
+if(getRversion() >= "2.15.1") {
+  c("grades_4pt") %>%
+    utils::globalVariables()
+}

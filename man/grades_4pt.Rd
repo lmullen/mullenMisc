@@ -3,6 +3,9 @@
 \name{grades_4pt}
 \alias{grades_4pt}
 \title{Four-point grading scale}
+\usage{
+data(grades_4pt)
+}
 \description{
 Values for converting between letter grades and a four-point numeric scale.
 Use \code{average} when converting from letter grades to numeric values, and
@@ -11,4 +14,5 @@ Use \code{average} when converting from letter grades to numeric values, and
 \seealso{
 \code{\link{lookup}}
 }
+\keyword{datasets}
 

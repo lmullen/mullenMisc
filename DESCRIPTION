@@ -1,13 +1,13 @@
 Package: mullenMisc
 Type: Package
 Title: Collection of functions that I use repeatedly
-Version: 0.1.8
+Version: 0.1.9
 Author: Lincoln Mullen <lincoln@lincolnmullen.com>
 Maintainer: Lincoln Mullen <lincoln@lincolnmullen.com>
 Description: Functions and configurations that I use across many projects
 License: MIT + file LICENSE
 Depends:
-    R (>= 3.0.0),
+    R (>= 3.1.2),
 Imports:
     assertthat (>= 0.1),
     dplyr (>= 0.2),
@@ -19,3 +19,4 @@ Imports:
 Suggests:
     testthat (>= 0.9)
 Roxygen: list(wrap = FALSE)
+LazyData: true

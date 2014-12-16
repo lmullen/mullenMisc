@@ -1,3 +1,12 @@
+# mullenMisc 0.1.9
+
+- New function `course_grades()`
+- New data frame `grades_4pt`
+
+# mullenMisc 0.1.8
+
+- New function `lookup()`
+
 # mullenMisc 0.1.7
 
 - New function `round_year()`
