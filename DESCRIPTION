@@ -1,7 +1,7 @@
 Package: mullenMisc
 Type: Package
 Title: Collection of functions that I use repeatedly
-Version: 0.1.9
+Version: 0.1.11
 Author: Lincoln Mullen <lincoln@lincolnmullen.com>
 Maintainer: Lincoln Mullen <lincoln@lincolnmullen.com>
 Description: Functions and configurations that I use across many projects
@@ -11,7 +11,6 @@ Depends:
 Imports:
     assertthat (>= 0.1),
     dplyr (>= 0.2),
-    grid,
     gridExtra (>= 0.9.1),
     ggplot2 (>= 1.0.0),
     knitr (>= 1.6),
