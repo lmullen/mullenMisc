@@ -7,10 +7,11 @@ Maintainer: Lincoln Mullen <lincoln@lincolnmullen.com>
 Description: Functions and configurations that I use across many projects
 License: MIT + file LICENSE
 Depends:
-    R (>= 3.1.2),
+    R (>= 3.1.2)
 Imports:
     assertthat (>= 0.1),
     dplyr (>= 0.2),
+    grid,
     gridExtra (>= 0.9.1),
     ggplot2 (>= 1.0.0),
     knitr (>= 1.6),
