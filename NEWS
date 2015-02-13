@@ -1,3 +1,7 @@
+# mullenMisc 0.1.11
+
+- New function `cache()`
+
 # mullenMisc 0.1.10
 
 - New function `jitter_latlong()`
