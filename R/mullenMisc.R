@@ -11,6 +11,5 @@
 NULL
 
 if(getRversion() >= "2.15.1") {
-  c("grades_4pt") %>%
-    utils::globalVariables()
+  utils::globalVariables(c("grades_4pt"))
 }
