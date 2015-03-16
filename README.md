@@ -1,17 +1,15 @@
 # mullenMisc
 
-An R package for functions I use across projects. To install this package:
+A personal R package for functions I use across projects. To install this package from GitHub, use [devtools](https://github.com/hadley/devtools).
 
 ```
 # install.packages("devtools")
 devtools::install_github("lmullen/mullenMisc")
-library("mullenMisc")
+```
+
+You can find a list of the functions using R's help:
+
+```
 help(package = "mullenMisc")
 ```
 
-
-
-Lincoln A. Mullen | lincoln@lincolnmullen.com | http://lincolnmullen.com\
-MIT License <http://lmullen.mit-license.org/>
-
-  [devtools]: https://github.com/hadley/devtools
