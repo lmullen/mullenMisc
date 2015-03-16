@@ -1,5 +1,7 @@
 # mullenMisc
 
+[![Travis-CI Build Status](https://travis-ci.org/lmullen/mullenMisc.png?branch=master)](https://travis-ci.org/lmullen/mullenMisc)
+
 A personal R package for functions I use across projects. To install this package from GitHub, use [devtools](https://github.com/hadley/devtools).
 
 ```
