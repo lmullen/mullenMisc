@@ -14,7 +14,8 @@ An ordered factor
 }
 \description{
 Convert a character vector of grades to an ordered factor. This function
-checks that the grade values are appropriate. It does accept \code{NA}.
+checks that the grade values are appropriate. It does accept \code{NA}. This
+function is useful when plotting grades.
 }
 \examples{
 g <- c("A-", "F", NA, "C+", "B+")

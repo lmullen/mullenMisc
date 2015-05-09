@@ -4,7 +4,7 @@
 \alias{course_grades}
 \title{Calculate course grades}
 \usage{
-course_grades(grades, weights)
+course_grades(grades, weights, method = c("percent", "fourpt"))
 }
 \arguments{
 \item{grades}{A data frame of assignment grades. The first column should be
@@ -13,8 +13,11 @@ the assignment. The data frame may contain other columns that will not be
 used the in the calculation of grades. Strings must not be factors.}
 
 \item{weights}{A named vector of the weights for each assignment. The names
-  should be identical to the names of the columns used for assignments in the
-  \code{grades} data frame. The weights must sum to \code{1}.}
+should be identical to the names of the columns used for assignments in the
+\code{grades} data frame. The weights must sum to \code{1}.}
+
+\item{method}{Should letter grades be convert to numeric values on a
+  percentage scale or a four-point scale?}
 }
 \value{
 A data frame of names, numeric, and letter grades.
@@ -35,6 +38,6 @@ weights <- c("essay" = 0.2, "paper" = 0.5, "exam" = 0.3)
 course_grades(assignments, weights)
 }
 \seealso{
-\code{\link{grades_4pt}}
+\code{\link{grades_4pt}}, \code{\link{grades_percent}}
 }
 

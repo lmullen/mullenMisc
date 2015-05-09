@@ -10,10 +10,12 @@
 #' @param weights A named vector of the weights for each assignment. The names
 #'   should be identical to the names of the columns used for assignments in the
 #'   \code{grades} data frame. The weights must sum to \code{1}.
+#' @param method Should letter grades be convert to numeric values on a
+#'   percentage scale or a four-point scale?
 #'
 #' @return A data frame of names, numeric, and letter grades.
 #'
-#' @seealso \code{\link{grades_4pt}}
+#' @seealso \code{\link{grades_4pt}}, \code{\link{grades_percent}}
 #'
 #' @examples
 #' assignments <-  data.frame(names = c("Anna", "Bill", "Cara", "Dan"),
@@ -26,7 +28,13 @@
 #' weights <- c("essay" = 0.2, "paper" = 0.5, "exam" = 0.3)
 #' course_grades(assignments, weights)
 #' @export
-course_grades <- function(grades, weights) {
+course_grades <- function(grades, weights, method = c("percent", "fourpt")) {
+  method <- match.arg(method)
+
+  grade_table <- switch(method,
+    "percent" = grades_percent,
+    "fourpt"  = grades_4pt
+  )
 
   assert_that(sum(weights) == 1.0)
 
@@ -34,7 +42,7 @@ course_grades <- function(grades, weights) {
 
   for(col in names(weights)) {
     grades[[col]]  <- lookup(grades[[col]],
-                             grades_4pt) * weights[col]
+                             grade_table) * weights[col]
   }
 
   grades$total <- rowSums(grades[,-1])
@@ -42,10 +50,10 @@ course_grades <- function(grades, weights) {
 
   for(i in seq_len(nrow(grades))) {
     grades$total_letter[i] <-
-      (grades$total[i] >= grades_4pt$lowest) %>%
+      (grades$total[i] >= grade_table$lowest) %>%
           which() %>%
           max() %>%
-          grades_4pt$grade[.]
+          grade_table$grade[.]
   }
 
   grades
