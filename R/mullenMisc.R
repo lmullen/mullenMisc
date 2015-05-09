@@ -1,4 +1,4 @@
-#' A package of functions that I use repeatedly
+#' Mullen Miscellaneous
 #'
 #' @docType package
 #' @name mullenMisc
@@ -10,7 +10,6 @@
 #' @import assertthat
 NULL
 
-if(getRversion() >= "2.15.1") {
-  c("grades_4pt") %>%
-    utils::globalVariables()
+if (getRversion() >= "2.15.1") {
+  utils::globalVariables(c("grades_4pt", "grades_percent"))
 }

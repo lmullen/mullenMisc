@@ -2,6 +2,8 @@
 
 - New functions `delay_by()` and `dot_every()` borrowed from Hadley Wickham's
   *Advanced R*.
+- New data frame `grades_percent`
+- New function `grade_factor()`
 
 # mullenMisc 0.1.11
 

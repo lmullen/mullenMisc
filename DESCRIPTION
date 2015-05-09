@@ -1,10 +1,11 @@
 Package: mullenMisc
 Type: Package
-Title: Collection of functions that I use repeatedly
-Version: 0.1.11
+Title: Mullen Miscellaneous
+Version: 0.1.12
 Author: Lincoln Mullen <lincoln@lincolnmullen.com>
 Maintainer: Lincoln Mullen <lincoln@lincolnmullen.com>
-Description: Functions and configurations that I use across many projects
+Description: I use these functions and configurations across multiple projects.
+    Includes functions for plotting, spatial analysis, and grading.
 License: MIT + file LICENSE
 Depends:
     R (>= 3.1.2)
