@@ -19,6 +19,6 @@ c2 <- data_frame(names = c("Anna", "Bill"),
                  total_letter = c("C-", "C+"))
 
 test_that("Course grades are calculated correctly on a four-point scale", {
-  expect_equivalent(course_grades(grades, w1), c1)
-  expect_equivalent(course_grades(grades, w2), c2)
+  expect_equivalent(course_grades(grades, w1, method = "fourpt"), c1)
+  expect_equivalent(course_grades(grades, w2, method = "fourpt"), c2)
 })
