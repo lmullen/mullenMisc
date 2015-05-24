@@ -8,7 +8,7 @@
 #' @return A delayed version of function \code{f}.
 #' @examples
 #' f <- delay_by(1, sqrt)
-#' sapply(1:5, f)
+#' sapply(1:3, f)
 #' @export
 delay_by <- function(delay = 1, f) {
   function(...) {
