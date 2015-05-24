@@ -4,6 +4,7 @@
   *Advanced R*.
 - New data frame `grades_percent`
 - New function `grade_factor()`
+- New RMarkdown template for my open history notebook
 
 # mullenMisc 0.1.11
 
