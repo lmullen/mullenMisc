@@ -19,7 +19,7 @@ Delay the execution of a function
 }
 \examples{
 f <- delay_by(1, sqrt)
-sapply(1:5, f)
+sapply(1:3, f)
 }
 \references{
 This function is borrowed from Hadley Wickham, \emph{Advanced R}
