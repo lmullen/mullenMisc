@@ -1,7 +1,7 @@
 Package: mullenMisc
 Type: Package
 Title: Mullen Miscellaneous
-Version: 0.1.12
+Version: 0.1.13.9000
 Author: Lincoln Mullen <lincoln@lincolnmullen.com>
 Maintainer: Lincoln Mullen <lincoln@lincolnmullen.com>
 Description: I use these functions and configurations across multiple projects.

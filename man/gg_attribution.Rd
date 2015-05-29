@@ -23,8 +23,8 @@ text and appearance of the label.
 \examples{
 \dontrun{
 require(ggplot2)
-plot <- qplot(mpg, wt, data = mtcars)
-plot_attributed <- gg_attribution(plot, "Your attribution")
+example_plot <- qplot(mpg, wt, data = mtcars)
+plot_attributed <- gg_attribution(example_plot, "Your attribution")
 print(plot_attributed)
 }
 }

@@ -1,3 +1,7 @@
+# mullenMisc 0.1.13
+
+- Fix bug in `gg_attribution()`
+
 # mullenMisc 0.1.12
 
 - New functions `delay_by()` and `dot_every()` borrowed from Hadley Wickham's

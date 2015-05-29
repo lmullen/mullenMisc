@@ -11,17 +11,18 @@
 #' @examples
 #' \dontrun{
 #' require(ggplot2)
-#' plot <- qplot(mpg, wt, data = mtcars)
-#' plot_attributed <- gg_attribution(plot, "Your attribution")
+#' example_plot <- qplot(mpg, wt, data = mtcars)
+#' plot_attributed <- gg_attribution(example_plot, "Your attribution")
 #' print(plot_attributed)
 #' }
 gg_attribution <- function(plot,
                            text = "Lincoln Mullen <http://lincolnmullen.com>",
                            size = 0.75, color = "gray10") {
-  gridExtra::arrangeGrob(plot,
-              sub = textGrob(text,
-                             x = unit(1, "npc") - unit(2, "mm"),
-                             y = unit(2, "mm"),
-                             just = c("right", "bottom"),
-                             gp = gpar(cex = size, col = color)))
+  attribution <- grid::textGrob(text,
+                                x = unit(1, "npc") - unit(2, "mm"),
+                                y = unit(2, "mm"),
+                                just = c("right", "bottom"),
+                                gp = gpar(cex = size, col = color))
+  result <- gridExtra::arrangeGrob(plot, sub = attribution)
+  return(result)
 }
