@@ -1,6 +1,7 @@
 # mullenMisc 0.1.13
 
 - Fix bug in `gg_attribution()`
+- New function `remote_package_version()`
 
 # mullenMisc 0.1.12
 
