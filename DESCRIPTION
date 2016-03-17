@@ -1,7 +1,7 @@
 Package: mullenMisc
 Type: Package
 Title: Miscellaneous Functions
-Version: 0.2.0
+Version: 0.2.0.9000
 Date: 2016-03-17
 Author: Lincoln Mullen <lincoln@lincolnmullen.com>
 Maintainer: Lincoln Mullen <lincoln@lincolnmullen.com>
