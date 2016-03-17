@@ -1,6 +1,5 @@
 context("Parse NHGIS codebook")
 
-
 codebook1 <- parse_nhgis_codebook(
   system.file("extdata", "ds10_1850_state_codebook.txt",
               package = "mullenMisc"))

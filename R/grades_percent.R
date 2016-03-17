@@ -7,7 +7,7 @@
 #'
 #' @name grades_percent
 #' @docType data
-#' @seealso \code{\link{lookup}}, \code{\link{grades_4pt}}
+#' @seealso \code{\link{grades_4pt}}
 #' @usage data(grades_percent)
 #' @keywords datasets
 NULL

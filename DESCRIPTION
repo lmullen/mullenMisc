@@ -12,10 +12,7 @@ Depends:
 Imports:
     assertthat (>= 0.1),
     dplyr (>= 0.2),
-    grid,
-    gridExtra (>= 0.9.1),
-    ggplot2 (>= 1.0.0),
-    knitr (>= 1.6),
+    ggplot2 (>= 2.1.0),
     stringi (>= 0.2-5)
 Suggests:
     testthat (>= 0.9)

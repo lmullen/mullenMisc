@@ -13,7 +13,7 @@ Use \code{average} when converting from letter grades to numeric values, and
 \code{lowest} when converting from numeric values to letter grades.
 }
 \seealso{
-\code{\link{lookup}}, \code{\link{grades_percent}}
+\code{\link{grades_percent}}
 }
 \keyword{datasets}
 

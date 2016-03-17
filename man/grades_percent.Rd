@@ -14,7 +14,7 @@ values, and \code{lowest} when converting from numeric values to letter
 grades.
 }
 \seealso{
-\code{\link{lookup}}, \code{\link{grades_4pt}}
+\code{\link{grades_4pt}}
 }
 \keyword{datasets}
 

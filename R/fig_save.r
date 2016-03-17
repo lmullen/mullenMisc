@@ -18,7 +18,7 @@ fig_save <- function(plot, filename = "plot",
                      formats = c("svg", "pdf", "png"),
                      width = 11, height = 8.5) {
   for (format in formats) {
-    ggsave(plot = plot, filename = paste(filename, format, sep = "."),
+    ggplot2::ggsave(plot = plot, filename = paste(filename, format, sep = "."),
            width = width, height = height)
   }
 }
