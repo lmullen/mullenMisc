@@ -1,7 +1,12 @@
 # Sample .travis.yml for R projects from https://github.com/craigcitro/r-travis
 
 language: r
-warnings_are_errors: true
+sudo: false
+cache: packages
+r:
+  - oldrel
+  - release
+  - devel
 
 notifications:
   email:
