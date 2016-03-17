@@ -1,3 +1,7 @@
+# mullenMisc 0.2.0
+
+- Delete legacy functions that did not work 
+
 # mullenMisc 0.1.13
 
 - Fix bug in `gg_attribution()`
